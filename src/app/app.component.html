@@ -1,6 +1,7 @@
-<ul>
-  <li><a [routerLink]="['users']">users</a></li>
-  <li><a [routerLink]="['posts']">posts</a></li>
-</ul>
+
+<div>
+  <button (click)="onClickUsers()">users</button>
+  <button (click)="onClickPosts()">posts</button>
+</div>
 
 <router-outlet> </router-outlet>

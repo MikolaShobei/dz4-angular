@@ -1,0 +1,23 @@
+<p>user-details-info works!</p>
+<div>
+  <ul>
+    <li>{{user.name}}</li>
+    <li>{{user.username}}</li>
+    <li>{{user.email}}</li>
+    <li>address:
+      <ul>
+        <li>{{user.address.street}}</li>
+        <li>{{user.address.suite}}</li>
+        <li>{{user.address.city}}</li>
+        <li>{{user.address.zipcode}}</li>
+        <li>
+          <ul>
+            <li>{{user.address.geo.lat}}</li>
+            <li>{{user.address.geo.lng}}</li>
+          </ul>
+        </li>
+
+      </ul>
+    </li>
+  </ul>
+</div>
